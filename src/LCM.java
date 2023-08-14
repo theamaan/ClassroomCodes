@@ -14,7 +14,7 @@ public class LCM {
                 h=i;
             }
         }
-        int l = (int)product/h;
+        int l = product/h;
         System.out.println("The HCF is "+h);
         System.out.println("The LCM is "+l);
     }
