@@ -32,7 +32,7 @@ public class FriendshipGame {
         // Determine years of friendship based on common letter count
         if (commonLetterCount < 2) {
             return "2";
-        } else if (commonLetterCount >= 2 && commonLetterCount < 5) {
+        } else if (commonLetterCount < 5) {
             return "10";
         } else {
             return "15";
