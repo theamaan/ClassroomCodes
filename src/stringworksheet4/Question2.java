@@ -19,12 +19,14 @@ public class Question2 {
     }
 
     public static String sortStringAlphabetically(String str) {
+        // Convert the input string to a character array for manipulation.
         char[] charArray = str.toCharArray();
 
+        // Nested loops for comparing and sorting characters in the array.
         for (int i = 0; i < charArray.length - 1; i++) {
             for (int j = i + 1; j < charArray.length; j++) {
                 if (charArray[i] > charArray[j]) {
-                    // Swap the characters if they are out of order
+                    // Swap the characters if they are out of order.
                     char temp = charArray[i];
                     charArray[i] = charArray[j];
                     charArray[j] = temp;
@@ -32,6 +34,8 @@ public class Question2 {
             }
         }
 
+        // Convert the sorted character array back to a string and return it.
         return new String(charArray);
     }
+
 }
