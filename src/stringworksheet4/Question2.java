@@ -21,8 +21,9 @@ public class Question2 {
     public static String sortStringAlphabetically(String str) {
         // Convert the input string to a character array for manipulation.
         char[] charArray = str.toCharArray();
-
+        //System.out.println(Arrays.toString(charArray));   would give this as output:- [j, a, v, a]
         // Nested loops for comparing and sorting characters in the array.
+        // bubble-sort algorithm
         for (int i = 0; i < charArray.length - 1; i++) {
             for (int j = i + 1; j < charArray.length; j++) {
                 if (charArray[i] > charArray[j]) {
