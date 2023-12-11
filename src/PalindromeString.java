@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
- class PalindromeString {
+class PalindromeString {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("I humbly request your input text:");

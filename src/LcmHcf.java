@@ -24,3 +24,4 @@ public class LcmHcf {public static void main(String[] args) {
         return a;
     }
 }
+//the values of 1785 and 546.
